@@ -1,21 +1,4 @@
-# VMess Proxy with an IR Server as a Router
-
-For this you need two servers, one in Iran and the other outside of Iran.</br>
-you can google it or using websites like [Sindad](https://sindad.com/) or [ParsPack](https://parspack.com/) or any other services you like.</br>
-Note: You don't need anything fancy, even the most basic and simple plans of the VPS's will do the magic.
-<hr>
-</br>
-Your server inside Iran will act as a router. It's only job is to route traffic from within the country to the main server (non-IR) which hosts the actual Vmess proxy. </br>
-All commands are base on debian-based linux distros. e.g. Ubuntu.</br></br>
-Note: There is <strong>no authentication</strong> mechanism applied for the sake of simplicity. </br>
-Share it with your loved ones</br></br>
-<bold>#MahsaAmini</bold></br>
-<bold>#womanlifefreedom</bold></br></br>
-Let's get started.</br></br>
-You can either clone this repo on your servers and just set your configurations or go by the following steps.</br></br>
-
-## on Your non-IR Server</br>
-
+## Use the following instruction on your server</br></br>
 #### 1. update & upgrade the packages </br>
 ```shell script
 sudo apt update && apt upgrade -y

@@ -1,0 +1,17 @@
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A FORWARD -d xx.xx.xx.xx -p tcp -m tcp --dport 80 -j ACCEPT
+-A FORWARD -d xx.xx.xx.xx -p udp -m udp --dport 80 -j ACCEPT
+COMMIT
+*nat
+:PREROUTING ACCEPT [0:0]
+:INPUT ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+-A PREROUTING -p tcp -m tcp --dport 80 -j DNAT --to-destination xx.xx.xx.xx
+-A PREROUTING -p udp -m udp --dport 80 -j DNAT --to-destination xx.xx.xx.xx
+-A POSTROUTING -d xx.xx.xx.xx -p tcp -m tcp --dport 80 -j MASQUERADE
+-A POSTROUTING -d xx.xx.xx.xx -p udp -m udp --dport 80 -j MASQUERADE
+COMMIT
