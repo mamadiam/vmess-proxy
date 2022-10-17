@@ -8,6 +8,7 @@
 | macOS | Qv2ray  | https://github.com/v2fly/v2ray-core/releases/ |
 
 The iOS client is free, you only need to pay when you wanna use the app servers.</br>
+If you don't have any access to AppStore go to [AltStore](https://altstore.io/).
 #### 2. Use these settings to connect:</br>
 ```sh
 Server IP: Your IR server IP
