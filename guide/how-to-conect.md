@@ -18,4 +18,4 @@ TLS: off
 WS Path: /graphql
 ```
 
-#### 3. You can use `export the qrcode` or `export clipboar` and share it with other people.
+#### 3. You can use `export the qrcode` or `export to the clipboard` and share it with other people.
