@@ -13,10 +13,12 @@ If you don't have any access to AppStore go to [AltStore](https://altstore.io/).
 ```sh
 Server IP: Your IR server IP
 Port: 80
-UUID: Generated UUID V1
+ID: Generated UUID V1
 Method: chacha20-ietf-poly1305
+Network: ws
+Path: /graphql
 TLS: off
-WS Path: /graphql
+allowInsecure: true
 ```
 
 #### 3. You can use `export the qrcode` or `export to the clipboard` and share it with other people.
