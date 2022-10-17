@@ -1,4 +1,4 @@
-## 1. Install the appropriate client based on your platform:</br>
+#### 1. Install the appropriate client based on your platform:</br>
 | platform | name | link |
 | ------ | ------ | ------ |
 | Linux/Windows | nekoray | https://github.com/MatsuriDayo/nekoray/releases |
@@ -6,8 +6,9 @@
 | iOS   | ShadowLink | https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518 |
 | macOS GUI | V2RayX  | https://github.com/Cenmrev/V2RayX/releases |
 | macOS | Qv2ray  | https://github.com/v2fly/v2ray-core/releases/ |
-</br>
-## 2. Use these settings to connect:</br>
+
+The iOS client is free, you only need to pay when you wanna use the app servers.</br>
+#### 2. Use these settings to connect:</br>
 ```sh
 Server IP: Your IR server IP
 Port: 80
@@ -16,4 +17,5 @@ Method: chacha20-ietf-poly1305
 TLS: off
 WS Path: /graphql
 ```
-## 3. You can use `export the qrcode` or `export clipboar` and share it with other people.
+
+#### 3. You can use `export the qrcode` or `export clipboar` and share it with other people.
