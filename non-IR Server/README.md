@@ -44,8 +44,7 @@ Write your UUID in notepad, you gonna need it later.</br>
           {
             "id": "xxx-xxx-xxx",
             "level": 1,
-            "alterId": 0,
-            "email": "client@example.com"
+            "alterId": 0
           }
         ],
         "disableInsecureEncryption": true
