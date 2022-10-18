@@ -51,12 +51,14 @@ Write your UUID in notepad, you gonna need it later.</br>
   },
   "inbounds": [
     {
+      "listen": "0.0.0.0",
       "port": 80,
       "protocol": "vmess",
       "allocate": {
         "strategy": "always"
       },
       "settings": {
+        "UDP": true,
         "clients": [
           {
             "id": "xxx-xxx-xxx",
