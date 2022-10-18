@@ -4,18 +4,19 @@
     },
     "inbounds": [
       {
+        "listen": "0.0.0.0",
         "port": 80,
         "protocol": "vmess",
         "allocate": {
           "strategy": "always"
         },
         "settings": {
+          "UDP": true,
           "clients": [
             {
               "id": "xxx-xxx-xxx",
               "level": 1,
-              "alterId": 0,
-              "email": "client@example.com"
+              "alterId": 0
             }
           ],
           "disableInsecureEncryption": true
