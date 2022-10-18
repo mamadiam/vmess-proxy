@@ -57,7 +57,7 @@ Write your UUID in notepad, you gonna need it later.</br>
           "connectionReuse": true,
           "path": "/graphql"
         },
-        "security": "none",
+        "security": "",
         "tcpSettings": {
           "header": {
             "type": "http",

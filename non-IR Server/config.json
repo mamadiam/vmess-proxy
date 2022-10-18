@@ -27,7 +27,7 @@
           "connectionReuse": true,
           "path": "/graphql"
         },
-        "security": "none",
+        "security": "",
         "tcpSettings": {
           "header": {
             "type": "http",
