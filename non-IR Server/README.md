@@ -34,19 +34,18 @@ Write your UUID in notepad, you gonna need it later.</br>
   },
   "inbounds": [
     {
-      "listen": "0.0.0.0",
       "port": 80,
       "protocol": "vmess",
       "allocate": {
         "strategy": "always"
       },
       "settings": {
-        "UDP": true,
         "clients": [
           {
             "id": "xxx-xxx-xxx",
             "level": 1,
-            "alterId": 0
+            "alterId": 0,
+            "email": "client@example.com"
           }
         ],
         "disableInsecureEncryption": true
@@ -57,7 +56,7 @@ Write your UUID in notepad, you gonna need it later.</br>
           "connectionReuse": true,
           "path": "/graphql"
         },
-        "security": "",
+        "security": "none",
         "tcpSettings": {
           "header": {
             "type": "http",
