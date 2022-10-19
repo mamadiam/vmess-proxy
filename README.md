@@ -17,7 +17,7 @@ You can either clone this repo on your servers and just set your configurations 
 ## on Your non-IR Server</br>
 
 #### 1. update & upgrade the packages </br>
-```shell script
+```
 # apt update && apt upgrade -y
 ``` 
 #### 2. Create & edit docker compose </br>
@@ -114,7 +114,7 @@ $ sed -i 's/xxx-xxx-xxx/YOUR_NEW_UUID/g' ./config.json
 ```
 Note: the `docker-compose.yaml` and `config.json` files need to be under the same directory.</br>
 #### 8. Install docker and docker-compose: </br>
-```shell script
+```
 # apt install docker docker-compose
 ```
 #### 9. Start the Vmess Server
@@ -127,15 +127,15 @@ That's it for your non-IR Server, now let's setup you IR Server.</br></br>
 ## on Your IR Server</br>
 
 #### 1. update & upgrade the packages </br>
-```shell script
+```
 # apt update && apt upgrade -y
 ``` 
 #### 2. install iptables persistent </br>
-```shell script
+```
 # apt install iptables-persistent
 ``` 
 #### 3. edit this file: </br>
-```shell script
+```
 # nano /etc/iptables/rules.v4
 ``` 
 #### 4. Add the following to the `rules.v4` file and save:</br>
@@ -159,12 +159,12 @@ COMMIT
 COMMIT
 ``` 
 #### 5. Replace `NON_IR_IP` with your non-IR server IPv4 and run the command:</br>
-```shell script
+```
 # sed -i 's/xx.xx.xx.xx/NON_IR_IP/g' /etc/iptables/rules.v4
 ```
 This will replace all occurences of `xx.xx.xx.xx` with the actual IP address of your non-IR server.</br>
 #### 6. Open this file:</br>
-```shell script
+```
 # nano /etc/sysctl.conf
 ```
 Add the following line to the beginning of the file (or just find it and uncomment it) and save:</br>
@@ -172,10 +172,10 @@ Add the following line to the beginning of the file (or just find it and uncomme
 net.ipv4.ip_forward=1
 ```
 #### 7. Run next two commands to make the changes take effect right away:</br>
-```shell script
+```
 # sysctl -p
 ```
-```shell script
+```
 # systemctl restart iptables.service --now
 ```
 Now head over to the `Guide` directory for instructions on how to connect to your server using a Vmess client.

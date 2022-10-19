@@ -1,6 +1,6 @@
 ## Use the following instruction on your server</br></br>
 #### 1. update & upgrade the packages </br>
-```shell script
+```
 # apt update && apt upgrade -y
 ``` 
 #### 2. Create & edit docker compose </br>
@@ -97,7 +97,7 @@ $ sed -i 's/xxx-xxx-xxx/YOUR_NEW_UUID/g' ./config.json
 ```
 Note: the `docker-compose.yaml` and `config.json` files need to be under the same directory.</br>
 #### 8. Install docker and docker-compose: </br>
-```shell script
+```
 # apt install docker docker-compose
 ```
 #### 9. Start the Vmess Server
