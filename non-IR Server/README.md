@@ -12,7 +12,7 @@ nano docker-compose.yaml
 version: "3"
 services:
   v2ray443:
-    image: v2fly/v2fly-core
+    image: v2fly/v2fly-core:v4.45.2
     restart: always
     network_mode: host
     environment:
