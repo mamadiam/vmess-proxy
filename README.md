@@ -1,7 +1,7 @@
 # VMess Proxy with an IR Server as a Router
 
 For this you need two servers, one in Iran and the other outside of Iran.</br>
-you can google it or using websites like [Sindad](https://sindad.com/) or [ParsPack](https://parspack.com/) or any other services you like, just make sure that your VPS is located in <strong>America</strong></br>
+you can google it or using websites like [Sindad](https://sindad.com/) or [ParsPack](https://parspack.com/) or any other services you like.</br>
 Note: You don't need anything fancy, even the most basic and simple plans of the VPS's will do the magic.
 <hr>
 </br>
