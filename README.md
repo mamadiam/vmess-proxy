@@ -177,4 +177,8 @@ sudo sysctl -p
 ```shell script
 sudo systemctl restart iptables.service
 ```
-Now head over to the `Guide` directory for instructions on how to connect to your server using a Vmess client.
+Now head over to the `Guide` directory for instructions on how to connect to your server using a Vmess client.</br></br>
+Just in case you want to support me, I'd realy appriciate it.</br>
+TRC20 `TT2AMeebAUGFcG9jLPA49xN1eMCyDekz6c` </br>
+ERC20 `0x9A6471A8d01A66e81433d97aF3e1288f7C2E6a7b`
+
